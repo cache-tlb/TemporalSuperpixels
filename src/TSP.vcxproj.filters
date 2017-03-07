@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="of">
+      <UniqueIdentifier>{b5d34b6e-e18b-47a9-972c-83dca0d2b60e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IMG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\of_celiu\Coarse2FineTwoFrames.cpp">
+      <Filter>of</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\of_celiu\GaussianPyramid.cpp">
+      <Filter>of</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\of_celiu\OpticalFlow.cpp">
+      <Filter>of</Filter>
+    </ClCompile>
+    <ClCompile Include="..\3rdparty\of_celiu\Stochastic.cpp">
+      <Filter>of</Filter>
+    </ClCompile>
+    <ClCompile Include="extra_func.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="helperMex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="debugMex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linear_algebra.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="topology.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IMG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\GaussianPyramid.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\Image.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\ImageIO.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\ImageProcessing.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\Matrix.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\NoiseModel.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\OpticalFlow.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\project.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\Stochastic.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="..\3rdparty\of_celiu\Vector.h">
+      <Filter>of</Filter>
+    </ClInclude>
+    <ClInclude Include="extra_func.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
