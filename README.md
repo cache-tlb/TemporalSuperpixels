@@ -1,5 +1,5 @@
 # TemporalSuperpixels
-The C++ wrapper of the paper 'A Video Representation Using Temporal Superpixels'. The Matlab code should be found at http://people.csail.mit.edu/jchang7/code.php#TSP
+The C++ implementation of the paper 'A Video Representation Using Temporal Superpixels'[CVPR2013]. The Matlab version should be found at http://people.csail.mit.edu/jchang7/code.php#TSP
 
 ## Dependences:
  - gsl: The GNU Scientific Library (https://www.gnu.org/software/gsl/)
