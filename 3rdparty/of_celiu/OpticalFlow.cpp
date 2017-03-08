@@ -835,7 +835,7 @@ void OpticalFlow::JCSmoothFlowSOR(const DImage &Im1, const DImage &Im2, DImage &
 }
 
 
-
+/*
 template <typename T>
 void imagesc(T* im, int xdim, int ydim)
 {
@@ -849,6 +849,7 @@ void imagesc(T* im, int xdim, int ydim)
    mxDestroyArray(tim[0]);
    mexEvalString("colorbar;");
 }
+*/
 /*void waitforbuttonpress()
 {
    mexEvalString("drawnow;");

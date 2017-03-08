@@ -112,7 +112,7 @@ template <typename T>
 array<T>::array(int theLength) :
    length(theLength)
 {
-   data = (T*)malloc(theLength, sizeof(T));
+   data = (T*)malloc(theLength*sizeof(T));
 }
 
 // --------------------------------------------------------------------------
@@ -123,7 +123,7 @@ template <typename T>
 array<T>::array(int theLength, T theValue) :
    length(theLength)
 {
-   data = (T*)malloc(theLength, sizeof(T));
+   data = (T*)malloc(theLength*sizeof(T));
    for (int i=0; i<theLength; i++)
       data[i] = theValue;
 }

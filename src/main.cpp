@@ -6,6 +6,10 @@
 
 #define UNKNOWN_FLOW_THRESH 1e9
 
+#ifdef _MSC_VER
+#define sprintf sprintf_s
+#endif
+
 void makecolorwheel(std::vector<cv::Scalar> &colorwheel)  
 {  
     int RY = 15;  
@@ -269,7 +273,7 @@ int main() {
         // cv::imshow("vis", vis);
         // cv::waitKey();
         char buf[256];
-        sprintf_s(buf, "../save/label_%04d.png", i);
+        sprintf(buf, "../save/label_%04d.png", i);
         cv::imwrite(buf, vis);
     }
     return 0;

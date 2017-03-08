@@ -11,13 +11,13 @@
 #define HELPERMEX
 enum inputType {SCALAR, VECTOR, MATRIX, MATRIX3, NSCALAR, CELL, STRUCT};
 
+#include "array.h"
 #include <math.h>
 #include <opencv2/opencv.hpp>
 //#define DEBUG // define by compiler
 // compile with "mex -O -DDEBUG ..." for debugging"
 // compile with "mex -O ..." for debugging"
 
-#include "array.h"
 
 #ifdef DEBUG_ARR
 #define arr(type)    array<type>
@@ -84,23 +84,23 @@ void deallocate_memory(T* ptr)
 }
 
 template<typename T>
-array<T> getArrayInput(int len, void *ptr) {
-    return array<T>(len, (T *) ptr);
+::array<T> getArrayInput(int len, void *ptr) {
+    return ::array<T>(len, (T *) ptr);
 }
 
 template<typename T>
-array<T> getArrayInput(cv::Mat &m) {
-    return array<T>(m.rows*m.cols, (T*) m.data);
+::array<T> getArrayInput(cv::Mat &m) {
+    return ::array<T>(m.rows*m.cols, (T*) m.data);
 }
 
 template<typename T>
-array<T> getArrayInput(cv::Vec<T, 3> &v) {
-    return array<T>(3, (T *)v.val);
+::array<T> getArrayInput(cv::Vec<T, 3> &v) {
+    return ::array<T>(3, (T *)v.val);
 }
 
 template<typename T>
-array<T> getArrayInput(cv::Vec<T, 2> &v) {
-    return array<T>(2, (T *)v.val);
+::array<T> getArrayInput(cv::Vec<T, 2> &v) {
+    return ::array<T>(2, (T *)v.val);
 }
 
 

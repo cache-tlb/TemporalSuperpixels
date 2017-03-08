@@ -10,8 +10,8 @@
 #ifndef DEBUGMEX
 #define DEBUGMEX
 
-#include "helperMEX.h"
-#include "of_celiu/matrix.h"
+#include "helperMex.h"
+#include "of_celiu/Matrix.h"
 #include "array.h"
 
 #ifdef DEBUG_ARR

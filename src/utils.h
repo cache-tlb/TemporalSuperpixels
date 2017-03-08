@@ -6,7 +6,7 @@
 #endif
 #include "linkedList.cpp"
 #include "array.h"
-#include "helperMEX.h"
+#include "helperMex.h"
 #include <sstream>
 
 // --1. mex I/O functions

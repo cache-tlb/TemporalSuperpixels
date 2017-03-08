@@ -63,7 +63,7 @@ public:
 	double sum() const
 	{
 		double total = 0;
-		for(int i = 0;i<nCol*nRom;i++)
+		for(int i = 0;i<nCol*nRow;i++)
 			total += pData[i];
 		return total;
 	}

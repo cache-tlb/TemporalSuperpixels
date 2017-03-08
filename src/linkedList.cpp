@@ -301,7 +301,7 @@ template <typename T>
 void linkedList<T>::popFirst(int numToPop, linkedList<T> &poppedList)
 {
     if (poppedList.length!=0 || poppedList.first!=NULL || poppedList.last!=NULL)
-        mexErrMsgTxt("Non-empty popped list\n");
+        printf("Non-empty popped list\n");
 
     if (numToPop>0)
     {
@@ -330,7 +330,7 @@ void linkedList<T>::popFirst(int numToPop, linkedList<T> &poppedList)
                 last = NULL;
             length -= poppedLength;
             if (length<0)
-                mexErrMsgTxt("Something wrong with length in popFirst\n");
+                printf("Something wrong with length in popFirst\n");
 
             poppedNode->next = NULL;
         }

@@ -22,7 +22,7 @@
 #ifndef LINEAR_ALGEBRA_H
 #define LINEAR_ALGEBRA_H
 
-#include "helperMEX.h"
+#include "helperMex.h"
 #include <math.h>
 #include "gsl/gsl_sf_gamma.h"
 

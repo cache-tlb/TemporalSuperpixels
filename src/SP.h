@@ -15,7 +15,7 @@
 #define _SP_H_INCLUDED_
 #include "linkedList.cpp"
 #include "array.h"
-#include "of_celiu/matrix.h"
+#include "of_celiu/Matrix.h"
 #include <math.h>
 #include "NormalD.h"
 
@@ -24,7 +24,7 @@
 #define pi 3.14159265
 #endif
 
-#include "helperMEX.h"
+#include "helperMex.h"
 #include "gsl/gsl_sf_gamma.h"
 
 double calc_log_label(double N, double alpha, double epsilon);

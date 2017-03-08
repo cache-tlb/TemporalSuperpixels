@@ -3,8 +3,11 @@
 #include <vector>
 
 // if the files are compiled in linux or mac os then uncomment the following line, otherwise comment it if you compile using visual studio in windows
-// #define _LINUX_MAC
-// #define _OPENCV
+#ifdef __linux__
+#define _LINUX_MAC
+#endif
+
+#define _OPENCV
 
 template <class T>
 void _Release1DBuffer(T* pBuffer)

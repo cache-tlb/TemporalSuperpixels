@@ -1,6 +1,7 @@
 #ifndef _ImageProcessing_h
 #define _ImageProcessing_h
 
+#include "project.h"
 #include "math.h"
 #include "stdio.h"
 #include "stdlib.h"

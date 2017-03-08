@@ -19,8 +19,8 @@
 #include "array.h"
 #include "linear_algebra.h"
 
-#include "helperMEX.h"
-#include "debugMEX.h"
+#include "helperMex.h"
+#include "debugMex.h"
 
 class NormalD
 {

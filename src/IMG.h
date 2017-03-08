@@ -23,7 +23,7 @@
 #include <gsl/gsl_linalg.h>
 #include <gsl/gsl_blas.h>
 
-#include "helperMEX.h"
+#include "helperMex.h"
 
 using namespace std;
 
